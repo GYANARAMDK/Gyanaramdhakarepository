@@ -1,0 +1,78 @@
+
+
+.bundle-container{
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 90%;
+    background-color: #f9f9f9;
+}
+
+.bundle-option{
+    
+    width: 40vw;
+    height: 15vh;
+    border: 2px solid rgb(153, 183, 173);
+}
+
+.siffing-info{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.delivery-info{
+    color: green;
+}
+.main-btn{
+    width: 40vw;
+    background-color: darkblue;
+    height: 40px;
+    border-radius: 5px;
+}
+.bundle-information{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   
+}
+.bundle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10em;
+    height: 50px;
+}
+.discount{
+    margin-right: 5px;
+    font-weight: bold;
+    color: red;
+}
+.bundle-contant{
+    
+    display: none;
+    /* display: block; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    /* margin-top: 20px;  */
+   
+}
+.bundle-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
